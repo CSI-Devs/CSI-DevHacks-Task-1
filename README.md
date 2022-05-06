@@ -1,4 +1,4 @@
-# CSI-DevHacks-Task-1  Task 0
+# CSI-DevHacks Task 1
 
 ## Introduction
 In this task, we'll focus on the fundamentals of web development. Web development is a basic skill which is often said as a good start to the development field. We'll help you focus on the web development basics using HTML, CSS and Javascript.
