@@ -3,23 +3,54 @@
 ## Introduction
 In this task, we'll focus on the fundamentals of web development. Web development is a basic skill which is often said as a good start to the development field. We'll help you focus on the web development basics using HTML, CSS and Javascript.
 
-## Tic Tac Toe
-Tic Tac Toe is a game in which 2 players take turns adding their token (an X or a O) until one player matches 3 (N) in a row in any direction. After a win condition is met, the winning player gets a point added to their score and the game board resets itself.
+## Assignment
 
-### Objective:
-You need to build a Tic Tac Toe game using HTML, CSS and VanillaJS.
+This week tasks will be on the basic of UI and UX development. It will comprise of making simple games like TIC-TAC-TOE and SUDOKU .
 
-### Rules:
-* The project must contain three files `index.html`, `main.js`, `style.css` and other static files like images only.
-* Please note that we won't allow any external readymade templates (we can easily recognize ;) )
+**Note** : You have to choose one of them.
 
-### Judging:
-The evaluation would be done mainly on the basis of UI/UX, authenticity of the code and tasks listed below.
+### [TIC-TAC-TOE](https://en.m.wikipedia.org/wiki/Tic-tac-toe)
 
-### Tasks:
-* **Task 1**: Add a two-player mode in which two people can play against each other.
-* **Task 2**: Add a one-player mode where a person can play with a smart bot that never loses.
-* **Task 3**: Add an option for the player to choose what shape to begin with (X/O).
+The task that we'll be working over is to build a TIC-TAC-TOE game , a multi-player classic game where both players will have to choose between X or O .The first player to complete a diagonal, vertical or a horizontal blocks wins the game.
+
+### Tasks
+
+- **Task 1**: Implement a two-player mode that allows two people to compete against each other.
+- **Task 2**: Add a single-player mode that allows users to play with an intelligent bot that never loses.
+- **Task 3**: Add an option to select which shape to begin with (X/O).
+- **Task 4:** In single-player mode, add an option to choose who will start first - computer or player.
+- **Extras:** You may keep a record of scores and use player names for interactivity.
+
+
+### [SUDOKU](https://en.wikipedia.org/wiki/Sudoku)
+
+Sudoku is a logic-based puzzle game .The aim of the Sudoku puzzle is to put in a numerical digit from 1 through 9 in each
+cell of a 9×9 grid made up of 3×3 sub-grids (called "block”), starting with various digits
+given in some cells (the "givens") with the others empty; each row, column, and block
+must contain only one instance of each numeral.
+
+Complexity of the algorithm that are used in building are divided into two parts.
+- One is the complexity of the algorithm to generate the complete grid. We discover the randomness of generating complete grid increases when the complexity increases, that is, the randomness higher and the complexity greater.
+
+- Second, is the algorithm to assign numbers in grid and check for each row , column and block and declare the final result .
+
+### Tasks
+
+- **Task 1**: Implement a Sudoku game. (The board may remain the same every time).
+- **Task 2**: Implement a board generator and generate a random board in every game. You may use backtracking or naive approaches to generate the board.
+- **Task 3:** Add a timer to the game, where the user may select a particular time to complete the game within it. **Bonus**: As the time reaches 0, the user can be warned about the time running out.
+- **Task 4:** Warning the user about incorrect inputs and user engagement.
+- **Extras:** To make the game more engaging, you may provide hints if the user is stuck for like 10-20 seconds.
+
+## Judging
+
+The evaluation would be done mainly on the following basis:
+
+1. User Interface and User Experience
+2. Authenticity and readability of the code
+3. Completion of mentioned tasks
+4. Bonus Points for implementing extra features depending on your creativity😉
+
 
 ## Instructions to Submit
 -   Fork the project to your GitHub account.
