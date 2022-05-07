@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+int a,b;
+char c;
+cout<<"ENTER THE NUMBER AND OPERATION";
+cin>>a>>c>>b;
+if (c=='+'){
+	cout<<"SUM : "<<a+b;}
+else if(c=='-'){
+	cout<<"DIFFRENCE : "<<a-b;}
+else if(c=='*'){
+	cout<<"PRODUCT : "<<a*b;}
+else {
+	cout<<"DIVISION : "<<a/b;}
+return 0;
+}
